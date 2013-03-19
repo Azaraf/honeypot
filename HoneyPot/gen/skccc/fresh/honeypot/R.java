@@ -36,8 +36,9 @@ public final class R {
         public static final int textView1=0x7f080002;
     }
     public static final class layout {
-        public static final int activity_intro=0x7f030000;
-        public static final int activity_main=0x7f030001;
+        public static final int activity_backup1=0x7f030000;
+        public static final int activity_intro=0x7f030001;
+        public static final int activity_main=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f070000;
