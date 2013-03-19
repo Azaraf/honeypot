@@ -1,6 +1,7 @@
-package skccc.fresh.honeypot;
+package skcc.fresh.honeypot;
 
 import skcc.fresh.backup.Backup1Activity;
+import skccc.fresh.honeypot.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

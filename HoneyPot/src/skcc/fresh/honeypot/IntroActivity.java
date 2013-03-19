@@ -1,5 +1,6 @@
-package skccc.fresh.honeypot;
+package skcc.fresh.honeypot;
 
+import skccc.fresh.honeypot.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
