@@ -24,6 +24,7 @@
             </intent-filter>
         </activity>
         <activity android:name="IntroActivity"></activity>
+        <activity android:name="skcc.fresh.backup.Backup1Activity"></activity>
     </application>
 
 </manifest>
