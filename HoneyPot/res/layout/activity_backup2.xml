@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_prev_backup2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="446dp"
+        android:text="이   전"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_tCloud"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/btn_googleGMail"
+        android:layout_below="@+id/btn_googleGMail"
+        android:layout_marginTop="20dp"
+        android:text="T Cloud"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_naverNDrive"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/btn_googleDrive"
+        android:layout_below="@+id/btn_googleDrive"
+        android:layout_marginTop="20dp"
+        android:text="Naver N Drive"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_googleGMail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/btn_naverNDrive"
+        android:layout_below="@+id/btn_naverNDrive"
+        android:layout_marginTop="20dp"
+        android:text="Google G-mail"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_googleDrive"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Google Drive"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bnt_next_backup2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_prev_backup2"
+        android:layout_alignBottom="@+id/btn_prev_backup2"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/btn_prev_backup2"
+        android:text="다   음"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -3,6 +3,7 @@
     package="skccc.fresh.honeypot"
     android:versionCode="1"
     android:versionName="1.0" >
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -23,8 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="IntroActivity"></activity>
+        <activity android:name="skcc.fresh.honeypot.IntroActivity"></activity>
         <activity android:name="skcc.fresh.backup.Backup1Activity"></activity>
+        <activity android:name="skcc.fresh.backup.Backup2Activity"></activity>
+        <activity android:name="skcc.fresh.backup.Backup3Activity"></activity>
     </application>
 
 </manifest>
